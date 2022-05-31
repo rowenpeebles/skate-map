@@ -33,7 +33,7 @@ struct TipsView: View {
             }
             
         }
-        .navigationTitle("Tips")
+        .navigationTitle("Hints")
     }
 }
 

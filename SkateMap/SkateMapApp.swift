@@ -29,11 +29,7 @@ struct SkateMapApp: App {
                 }
                 .tabItem {
                     Image(systemName: "list.bullet")
-                    Text("Tips")
-                }
-                .tabItem {
-                    Image(systemName: "star.fill")
-                    Text("Locations")
+                    Text("Hints")
                 }
             }
             .environmentObject(locations)
