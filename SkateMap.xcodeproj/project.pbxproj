@@ -14,6 +14,13 @@
 		1CCF85ED284515DE005F01A6 /* SkateMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF85EC284515DE005F01A6 /* SkateMapTests.swift */; };
 		1CCF85F7284515DE005F01A6 /* SkateMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF85F6284515DE005F01A6 /* SkateMapUITests.swift */; };
 		1CCF85F9284515DE005F01A6 /* SkateMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF85F8284515DE005F01A6 /* SkateMapUITestsLaunchTests.swift */; };
+		1CCF860728451659005F01A6 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF860528451659005F01A6 /* locations.json */; };
+		1CCF860828451659005F01A6 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CCF860628451659005F01A6 /* tips.json */; };
+		1CCF860C284519C2005F01A6 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF860B284519C2005F01A6 /* Location.swift */; };
+		1CCF860E28451CD7005F01A6 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF860D28451CD7005F01A6 /* Locations.swift */; };
+		1CCF8610284520AE005F01A6 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF860F284520AE005F01A6 /* WorldView.swift */; };
+		1CCF861228452E41005F01A6 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF861128452E41005F01A6 /* Tip.swift */; };
+		1CCF861428452F07005F01A6 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF861328452F07005F01A6 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		1CCF85F2284515DE005F01A6 /* SkateMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCF85F6284515DE005F01A6 /* SkateMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapUITests.swift; sourceTree = "<group>"; };
 		1CCF85F8284515DE005F01A6 /* SkateMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CCF860528451659005F01A6 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		1CCF860628451659005F01A6 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		1CCF860B284519C2005F01A6 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1CCF860D28451CD7005F01A6 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		1CCF860F284520AE005F01A6 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		1CCF861128452E41005F01A6 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		1CCF861328452F07005F01A6 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				1CCF85DB284515DD005F01A6 /* SkateMapApp.swift */,
+				1CCF861128452E41005F01A6 /* Tip.swift */,
+				1CCF861328452F07005F01A6 /* TipsView.swift */,
 				1CCF85DD284515DD005F01A6 /* ContentView.swift */,
+				1CCF860D28451CD7005F01A6 /* Locations.swift */,
+				1CCF860B284519C2005F01A6 /* Location.swift */,
+				1CCF860F284520AE005F01A6 /* WorldView.swift */,
 				1CCF85DF284515DD005F01A6 /* Assets.xcassets */,
+				1CCF860528451659005F01A6 /* locations.json */,
+				1CCF860628451659005F01A6 /* tips.json */,
 				1CCF85E1284515DD005F01A6 /* Preview Content */,
 			);
 			path = SkateMap;
@@ -232,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCF85E3284515DD005F01A6 /* Preview Assets.xcassets in Resources */,
+				1CCF860828451659005F01A6 /* tips.json in Resources */,
+				1CCF860728451659005F01A6 /* locations.json in Resources */,
 				1CCF85E0284515DD005F01A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCF85DE284515DD005F01A6 /* ContentView.swift in Sources */,
+				1CCF860C284519C2005F01A6 /* Location.swift in Sources */,
+				1CCF8610284520AE005F01A6 /* WorldView.swift in Sources */,
+				1CCF861228452E41005F01A6 /* Tip.swift in Sources */,
+				1CCF861428452F07005F01A6 /* TipsView.swift in Sources */,
+				1CCF860E28451CD7005F01A6 /* Locations.swift in Sources */,
 				1CCF85DC284515DD005F01A6 /* SkateMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
